@@ -1,0 +1,31 @@
+@media (max-width:860px){
+    .nav{
+        visibility: hidden;
+        background-color: var(--braun);
+        border: 2px solid var(--beige);
+        position: absolute;
+        height: 40vh;
+        right: 0;
+        top: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: 1s;
+
+    }
+    .nav.nav_show{
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+    
+    }
+    .nav_list{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+justify-content: space-evenly;
+
+    }
+    .burger_menu{
+        display: flex;
+    }
+}
