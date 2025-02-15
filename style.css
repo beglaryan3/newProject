@@ -71,6 +71,7 @@ h6{
     position: fixed;
     top: 0;
     z-index: 1111;
+    background: red;
 }
 .header_container{
     width: 100%;
@@ -171,4 +172,5 @@ justify-content: space-between;
     width: 500px;
     height: 300px;
     background: black;
+    
 }
