@@ -1,12 +1,12 @@
-/* * {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
-/* 
+} 
+
 @font-face {
     font-family: DancingScript;
-    src: url(/fonts/DancingScript-VariableFont_wght.ttf);
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -17,7 +17,7 @@
 @font-face {
     font-family: Leiko;
     src: url(fonts/Leiko-Regular.otf);
-} */
+} 
 
 html {
     scroll-behavior: smooth;
@@ -248,210 +248,6 @@ h6 {
     height: 584px;
     display: flex;
     align-items: center;
+    background: var(--braun);
 
-}
-.section2_container{
-    height: 500px;
-    overflow: hidden;
-}
-.slider{
-    height: 378px;
-}
-.slider_pagination{
-    width: 100%;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 39px;
-}
-.slider_circle{
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: #744F40;
-}
-
-.slider_circle.active{
-    background: #D7B0A0;
-}
-
-.slider_item{
-    width: 100%;
-    height: 378px;
-    display: flex;
-    background: #533529;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 48px;
-}
-.slider_imgWrapper{
-    width: 408px;
-    height: 378px;
-}
-.slider_image{
-    width: 100%;
-    height: 100%;
-}
-.slider_texts{
-    max-width: 592px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.slider_text{
-    font-size: 18px;
-    color: var(--linkcolor);
-    font-family: Leiko;
-    /* text-align: justify; */
-    height: 241px;
-    line-height: 218%;
-    overflow: hidden;
-}
-.slider_link{
-    color: var(--linkcolor);
-    text-decoration: underline;
-    font-size: 20px;
-    font-family: Leiko;
-}
-/* ///////////////////////////////////////////////////////////// */
-.section3 {
-    width: 100%;
-    min-height: 584px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section3_container {
-    min-height: 366px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.section3_title {
-    font-size: 64px;
-    font-weight: bold;
-}
-
-.section3_content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section3_item {
-    width: 170px;
-    height: 225px;
-    border: 1px solid wheat;
-    background-color: #54372A;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 35px;
-
-}
-
-.section3_content_text {
-    color: #F8E4BE;
-    font-family: sans-serif;
-    font-family: Leiko;
-    
-}
-
-/* ///////////////////////////////////////////////////////////// */
-.section4 {
-    width: 100%;
-    min-height: 584px;
-    display: flex;
-    align-items: center;
-}
-
-.section4_container {
-    min-height: 378px;
-    background-color: var(--braun);
-    border-radius: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.section4_content {
-    max-width: 619px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    gap: 32px;
-}
-
-.section4_text {
-    color: white;
-    font-size: 18px;
-    font-family: Leiko;
-    width: 619px;
-
-}
-
-.section4_btn {
-    padding: 12px 36px;
-    border: 2px solid var(--beige);
-    background-color: #68574D;
-    border-radius: 49px;
-    color: var(--beige);
-    font-size: 24px;
-    font-family: Playfair_Display;
-    cursor: pointer;
-}
-
-.section4_title span {
-    font-size: 48px;
-    font-family: Leiko;
-}
-
-/* /////////////////////////////////////////////////////////////////// */
-.section5 {
-    margin-top: 80px;
-    width: 100%;
-    min-height: 581px;
-    background-color: var(--braun);
-    display: flex;
-    align-items: center;
-}
-
-.section5_container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.section5_img {
-    width: 429px;
-    height: 472px;
-}
-
-.section5_foto {
-    width: 100%;
-    height: 100%;
-}
-
-.form {
-    width: 540px;
-    min-height: 410px;
-}
-.swiper{
-    width: 800px;
-    height: 400px;
-}
-.swiper-slide{
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
