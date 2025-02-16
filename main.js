@@ -1,6 +1,3 @@
-console.log(1)
-
-
 const menu = document.querySelector(".nav")
 const burgermenu =document.querySelector(".burger_menu")
 const menuClose =document.querySelector(".menu_close")
@@ -24,3 +21,4 @@ const menuClose =document.querySelector(".menu_close")
 const slider = document.querySelector(".slider")
 const sliderChildren = slider.children
 console.log(slider)
+const swiper = new Swiper(".swiper", {});

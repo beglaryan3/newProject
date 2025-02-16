@@ -445,3 +445,13 @@ h6 {
     width: 540px;
     min-height: 410px;
 }
+.swiper{
+    width: 800px;
+    height: 400px;
+}
+.swiper-slide{
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
