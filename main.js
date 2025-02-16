@@ -19,5 +19,10 @@ menuClose.onclick =()=>{
 }
 ////////////////////
 
-console.log(1)
-const swiper = new Swiper(".swiper", {});
+const swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      loop:true,
+    },
+  });
